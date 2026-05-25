@@ -2,9 +2,12 @@
   "private": true,
   "name": "subtle.blades.ninja",
   "type": "module",
+  "workspaces": [
+    "do"
+  ],
   "scripts": {
     "start": "npm run build -- --serve",
-    "stage": "rm -r ./_site/ || true && npm run build && serve ./_site/",
+    "stage": "rm -r ./_site || true && npm run build && serve ./_site/",
     "build": "eleventy --input=../"
   },
   "devDependencies": {
@@ -12,6 +15,7 @@
     "serve": "^14.2.5"
   },
   "dependencies": {
+    "@anyblades/eleventy-blades": "^0.29.0-beta.3",
     "@anyblades/eleventy-blades-base": "^0.3.2"
   },
   "=== SITE GLOBALS": "===",
