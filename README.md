@@ -76,7 +76,7 @@ npm run stage  # serve production version locally
 
 ---
 
-Featured by:
+## <sup style>Featured by</sup>
 
 https://11tybundle.dev/starters/,
 https://11ty.blades.ninja/starters/,

@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^4.0.0-alpha.7",
-    "@anyblades/eleventy-blades-base": "^1.1.0"
+    "@anyblades/eleventy-blades-base": "^1.2.1"
   },
   "=== SITE GLOBALS": "compatible with https://www.11ty.dev/docs/plugins/rss/#virtual-template",
   "site": {
@@ -30,8 +30,9 @@
     },
     "styles": [
       "/blades.css",
+      "/blades.ninja.css",
       "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css",
-      "https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-tomorrow.min.css",
+      "https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-okaidia.min.css",
       "https://cdn.jsdelivr.net/npm/prismjs@1/plugins/treeview/prism-treeview.min.css"
     ],
     "scripts": [
