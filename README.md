@@ -61,6 +61,12 @@ By [literally] hiding inside `.11ty` subfolder, it declutters the project root f
 ```
 
 </td></tr></table>
+<style>
+  .borderless {
+    th { padding-block-end: 0 }
+    pre { padding-block: 0; padding-inline-start: 0; margin: 0 }
+  }
+</style>
 
 ---
 
