@@ -88,9 +88,10 @@ title: <sup style>All-time</sup> Top football players <sub style>by goals scored
     }
     tr:has(#row-seasons) ~ tr td:nth-child(2n+3) {
       &::before {
-        content: "= ";
+        content: "=";
         float: left;
         margin-left: -1ch;
+        opacity: 50%;
       }
       opacity: 37.5%;
       font-size: smaller;
