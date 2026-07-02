@@ -6,7 +6,7 @@ title: <sup style>All-time</sup> Top football players <sub style>by goals scored
 
 |                  | 🇵🇹 Cristiano Ronaldo                              | 🇦🇷 Lionel Messi                                | 🇫🇷 Kylian Mbappé                         | 🇳🇴 Erling Haaland                      | 🇪🇸 Lamine Yamal                                |
 | ---------------- | ------------------------------------------------- | ---------------------------------------------- | ---------------------------------------- | -------------------------------------- | ---------------------------------------------- |
-| Total goals      | <big>[`975`][🇵🇹7]</big>                           | <big>[917][🇦🇷10]</big>                         | <big>[431][🇫🇷10]</big>                   | <big>[357][🇳🇴9]</big>                  | <big>[56][🇪🇸19]</big>                          |
+| Total goals      | <big>[`975`][🇵🇹7]</big> <sup>🌐10</sup>           | <big>[917][🇦🇷10]</big> <sup>🌐19</sup>         | <big>[431][🇫🇷10]</big> <sup>🌐18</sup>   | <big>[357][🇳🇴9]</big>                  | <big>[56][🇪🇸19]</big> <sup>🌐1</sup>           |
 | 1st goal         | 17y 8m <sub style>Sporting CP vs Moreirense</sub> | 17y 10m <sub style>Barcelona vs Albacete</sub> | 17y 2m <sub style>Monaco vs Troyes</sub> | 16y 9m <sub style>Molde vs Volda</sub> | `16y 2m` <sub style>Barcelona vs Granada</sub> |
 | By season:       |                                                   |                                                |                                          |                                        |                                                |
 | 1st              | 5                                                 | 1                                              | 1                                        | 4                                      | `9`                                            |
@@ -14,31 +14,31 @@ title: <sup style>All-time</sup> Top football players <sub style>by goals scored
 | 3rd              | 16                                                | 19                                             | 22 <sup>🌐4</sup>                        | `44`                                   | 27 <sup>🌐1</sup>                              |
 | 4th              | 14 <sup>🌐1</sup>                                 | 22                                             | `48`                                     | `47`                                   | 1                                              |
 | 5th              | 29                                                | `40`                                           | 33                                       | 35                                     | ...                                            |
-| 1st–5th {.div}   | 70                                                | 90                                             | 130                                      | `147`                                  | 56                                             |
+| 1st–5th {.div}   | 70 <sup>🌐1</sup>                                 | 90 <sup>🌐1</sup>                              | 130 <sup>🌐4</sup>                       | `147`                                  | 56 <sup>🌐1</sup>                              |
 | 6th              | 47                                                | 50                                             | 45                                       | `61`                                   | ...                                            |
 | 7th              | 27                                                | `55`                                           | 47 <sup>🌐8</sup>                        | 44                                     | ...                                            |
 | 8th              | 34 <sup>🌐1</sup>                                 | `77`                                           | 53                                       | 45                                     | ...                                            |
 | 9th              | 56                                                | `72`                                           | 54                                       | 55                                     | ...                                            |
 | 10th             | `67`                                              | 47 <sup>🌐4</sup>                              | 46                                       | 5                                      | ...                                            |
-| 6th–10th {.div}  | 231                                               | `301`                                          | 245                                      | 210                                    | ...                                            |
+| 6th–10th {.div}  | 231 <sup>🌐1</sup>                                | `301` <sup>🌐4</sup>                           | 245 <sup>🌐8</sup>                       | 210                                    | ...                                            |
 | 11th             | `60`                                              | `66`                                           | 49 <sup>🌐6</sup>                        | ...                                    | ...                                            |
 | 12th             | `61` <sup>🌐1</sup>                               | 45                                             | 7                                        | ...                                    | ...                                            |
 | 13th             | `66`                                              | `62`                                           | ...                                      | ...                                    | ...                                            |
 | 14th             | `54`                                              | `49` <sup>🌐1</sup>                            | ...                                      | ...                                    | ...                                            |
 | 15th             | `55`                                              | `55`                                           | ...                                      | ...                                    | ...                                            |
-| 11th–15th {.div} | `296`                                             | 277                                            | 56                                       | ...                                    | ...                                            |
+| 11th–15th {.div} | `296` <sup>🌐1</sup>                              | 277 <sup>🌐1</sup>                             | 56 <sup>🌐6</sup>                        | ...                                    | ...                                            |
 | 16th             | `55` <sup>🌐4</sup>                               | 36                                             | ...                                      | ...                                    | ...                                            |
 | 17th             | 34                                                | `39`                                           | ...                                      | ...                                    | ...                                            |
 | 18th             | `51`                                              | 20 <sup>🌐7</sup>                              | ...                                      | ...                                    | ...                                            |
 | 19th             | `39`                                              | `39`                                           | ...                                      | ...                                    | ...                                            |
 | 20th             | `37`                                              | 19                                             | ...                                      | ...                                    | ...                                            |
-| 16th–20th {.div} | `216`                                             | 153                                            | ...                                      | ...                                    | ...                                            |
+| 16th–20th {.div} | `216` <sup>🌐4</sup>                              | 153 <sup>🌐7</sup>                             | ...                                      | ...                                    | ...                                            |
 | 21st             | 20 <sup>🌐1</sup>                                 | `29`                                           | ...                                      | ...                                    | ...                                            |
 | 22nd             | `60`                                              | 46 <sup>🌐6</sup>                              | ...                                      | ...                                    | ...                                            |
 | 23rd             | `42`                                              | 21                                             | ...                                      | ...                                    | ...                                            |
 | 24th             | `38` <sup>🌐2</sup>                               | ...                                            | ...                                      | ...                                    | ...                                            |
 | 25th             | `2`                                               | ...                                            | ...                                      | ...                                    | ...                                            |
-| 21st–25th {.div} | `162`                                             | 96                                             | ...                                      | ...                                    | ...                                            |
+| 21st–25th {.div} | `162` <sup>🌐3</sup>                              | 96 <sup>🌐6</sup>                              | ...                                      | ...                                    | ...                                            |
 
 {.striped}
 
@@ -50,9 +50,6 @@ title: <sup style>All-time</sup> Top football players <sub style>by goals scored
 
 <style>
   table {
-    th, td {
-      text-align: center;
-    }
     tr:has(td.div) {
       font-size: smaller;
       opacity: 50%;
