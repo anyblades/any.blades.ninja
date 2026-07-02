@@ -12,9 +12,9 @@ title: <sup style>All-time</sup> Top football players <sub style>by goals scored
 | Goals {#row-goals}        | `975` _~42/y_                       |     | 917 _~44/y_                         |     | 431 _~43/y_                   |     | 357 _~40/y_                 |     | 56 _~28/y_                          |     |
 | Years played              | 23 _2002–present_                   |     | 21 _2005–present_                   |     | 10 _2016–present_             |     | 9 _2017–present_            |     | 2 _2023–present_                    |     |
 | World Cup goals           | 🌐10                                |     | `🌐19`                              |     | `🌐18`                        |     | 🌐5                         |     | 🌐1                                 |     |
-| World Cups won            | — _of 6_                            |     | `🏆1` _of 6_                        |     | `🏆1` _of 3_                  |     | — _of 1_                    |     | — _of 1_                            |     |
-| Golden Shoes              | <i>👟</i>4                          |     | <code><i>👟</i>6</code>             |     | <i>👟</i>1                    |     | <i>👟</i>1                  |     | —                                   |     |
-| Ballons d'Or              | <i>⚽️</i>5                          |     | <code><i>⚽️</i>8</code>             |     | —                             |     | —                           |     | —                                   |     |
+| World Cups won            | — _of 6_                            |     | <code>🏆**1**</code> _of 6_         |     | <code>🏆**1**</code> _of 3_   |     | — _of 1_                    |     | — _of 1_                            |     |
+| Golden Shoes              | **👟4**                             |     | <code>**👟6**</code>                |     | **👟1**                       |     | **👟1**                     |     | —                                   |     |
+| Ballons d'Or              | **⚽️5**                             |     | <code>**⚽️8**</code>                |     | —                             |     | —                           |     | —                                   |     |
 | 1st goal                  | 17y 8m _Sporting vs<br> Moreirense_ |     | 17y 10m _Barcelona <br>vs Albacete_ |     | 17y 2m _Monaco <br>vs Troyes_ |     | 16y 9m _Molde <br>vs Volda_ |     | `16y 2m` _Barcelona <br>vs Granada_ |     |
 | By season: {#row-seasons} |                                     |     |                                     |     |                               |     |                             |     |                                     |     |
 | 1st                       | 5 {data-y=2002}                     | 5   | 1 {data-y=2004}                     | 1   | 1 {data-y=2015}               | 1   | 4 {data-y=2016}             | 4   | `9` {data-y=2023}                   | 9   |
@@ -62,12 +62,12 @@ title: <sup style>All-time</sup> Top football players <sub style>by goals scored
       opacity: 50%;
     }
     em {
-      font-style: normal;
       display: block;
+      font-style: normal;
       font-size: smaller;
     }
     strong {
-      font-style: normal;
+      font-weight: normal;
       /* filter: sepia(1) saturate(10) hue-rotate(10deg) brightness(1.2); */
       filter: sepia(1) saturate(8) hue-rotate(-5deg) brightness(0.85) contrast(1.4);
     }
