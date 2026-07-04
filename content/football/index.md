@@ -9,7 +9,7 @@ title: <sup style>All-time</sup> Top football goalscorers <sub style>and runners
 | Player              | Cristiano <br>Ronaldo                      | Lionel <br>Messi                       | Kylian <br>Mbappé                    | Erling <br>Haaland                     | Lamine <br>Yamal                       |
 | ------------------- | ------------------------------------------ | -------------------------------------- | ------------------------------------ | -------------------------------------- | -------------------------------------- |
 | Country #           | 🇵🇹 #7                                      | 🇦🇷 #10                                 | 🇫🇷 #10                               | 🇳🇴 #9                                  | 🇪🇸 #19                                 |
-| Goals {#row-goals}  | `976` _~41/y_                              | 918 _~42/y_                            | 431 _~41/y_                          | 357 _~35/y_                            | 56 _~18/y_                             |
+| Goals {#row-goals}  | `976` _~41/year_                           | 918 _~42/year_                         | 431 _~41/year_                       | 357 _~35/year_                         | 56 _~18/year_                          |
 | World Cup goals     | 🌐11                                       | `🌐20`                                 | 🌐18                                 | 🌐5                                    | 🌐1                                    |
 | World Cups won      | — _of 6_                                   | <code>🏆**1**</code> _of 6_            | <code>🏆**1**</code> _of 3_          | — _of 1_                               | — _of 1_                               |
 | Ballons d'Or        | **⚽️5**                                    | <code>**⚽️8**</code>                   | —                                    | —                                      | —                                      |
@@ -50,6 +50,7 @@ title: <sup style>All-time</sup> Top football goalscorers <sub style>and runners
   table {
     display: table !important;
     border-collapse: separate;
+    @media (width >= 1024px) { font-size: 125% }
     /* [CORE] Table styles */
     thead {
       position: sticky;
