@@ -5,7 +5,12 @@ header_links:
   - url: https://github.com/anyblades/1000goals.blades.ninja
     title: <i class="fa-solid fa-laptop-code fa-sm faded"></i>
 footer_contents:
-  - Content licensed [CC BY-SA 4.0](//github.com/anyblades/1000goals.blades.ninja/blob/master/content/LICENSE.md).
+  - |-
+    Fully [open-source](//github.com/anyblades/1000goals.blades.ninja) tracker
+    powered by [Blades CSS](https://blades.ninja/) using [11ty](//11ty.blades.ninja/).
+
+    Content licensed [CC BY-SA 4.0](//github.com/anyblades/1000goals.blades.ninja/blob/main/content/LICENSE.md)
+    © 2026 [Anydigital](https://any.digital/)
 head_extras:
   - |-
     <style>
@@ -13,4 +18,5 @@ head_extras:
         display: inline-block; line-height: 1; top: 0;
         text-transform: uppercase; font-size: 45%;
       }
+      body > footer { text-align: center }
     </style>
