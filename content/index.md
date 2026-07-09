@@ -4,7 +4,7 @@ eleventyComputed:
     <meta property="og:image" content="{{ site.base }}/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
 title: The Race for <mark>1000 Goals</mark>
-description: "Who will cross the bar of 1K goals? Tracking active football legends, rising contenders, and their historic season-by-season performance.&nbsp; <i class='faded' style='text-wrap: nowrap'>Updated: July 7, 2026</i>"
+description: "Who will cross the bar of 1K goals? Tracking active football legends, rising contenders, and their historic season-by-season performance.&nbsp; <i class='faded' style='text-wrap: nowrap'>Updated: July 9, 2026</i>"
 ---
 
 ---
@@ -38,8 +38,8 @@ description: "Who will cross the bar of 1K goals? Tracking active football legen
 
 | Player                                           | <sup>🇵🇹</sup>Cristiano <br>Ronaldo        | <sup>🇦🇷</sup>Lionel <br>Messi          | <sup>🇫🇷</sup>Kylian <br>Mbappé      | <sup>🇳🇴</sup>Erling <br>Haaland     | <sup>🇪🇸</sup>Lamine <br>Yamal         |
 | ------------------------------------------------ | ----------------------------------------- | -------------------------------------- | ----------------------------------- | ----------------------------------- | ------------------------------------- |
-| Goals {#row-goals}                               | `976` _~41/year_                          | 919 _~42/year_                         | 432 _~41/year_                      | 359 _~36/year_                      | 56 _~18/year_                         |
-| World&nbsp;Cup goals                             | 🌐11                                      | `🌐21`                                 | 🌐19                                | 🌐7                                 | 🌐1                                   |
+| Goals {#row-goals}                               | `976` _~41/year_                          | 919 _~42/year_                         | 433 _~41/year_                      | 359 _~36/year_                      | 56 _~18/year_                         |
+| World&nbsp;Cup goals                             | 🌐11                                      | `🌐21`                                 | 🌐20                                | 🌐7                                 | 🌐1                                   |
 | World&nbsp;Cups won                              | — _of 6_                                  | <code>**🏆1**</code> _of 6_            | <code>**🏆1**</code> _of 3_         | — _of 1_                            | — _of 1_                              |
 | Ballons&nbsp;d'Or                                | **⚽️5**                                   | <code>**⚽️8**</code>                   | —                                   | —                                   | —                                     |
 | Golden&nbsp;Shoes                                | **👟4**                                   | <code>**👟6**</code>                   | **👟1**                             | **👟1**                             | —                                     |
@@ -59,7 +59,7 @@ description: "Who will cross the bar of 1K goals? Tracking active football legen
 | 10th season                                      | _'11/12_ `67` _∑=301_                     | _'13/14_ 47 _∑=391_ <br>🌐4            | _'24/25_ 46 _∑=375_ <br>**👟**      | _'25/26_ 55 _∑=352_                 |                                       |
 | `Messi` vs Ronaldo vs Mbappé vs Haaland          | ∑=301 <br>**⚽️1👟2**🌐2                   | `∑=391` <br>**⚽️4👟3**🌐5              | ∑=375 <br>**👟1🏆1**🌐12            | ∑=352 <br>**👟1** {.vs-eh}          |
 | 11th season                                      | _'12/13_ 60 _∑=361_ <br>**⚽️**            | _'14/15_ `66` _∑=457_ <br>**⚽️**       | _'25/26_ 49 _∑=424_                 | _'26/27_ 7 _∑=359_ <br>🌐7          |                                       |
-| 12th season                                      | _'13/14_ `61` _∑=422_ <br>**⚽️👟**        | _'15/16_ 45 _∑=502_                    | _'26/27_ 8 _∑=432_ <br>🌐7          | _'27/28_ ...                        |                                       |
+| 12th season                                      | _'13/14_ `61` _∑=422_ <br>**⚽️👟**        | _'15/16_ 45 _∑=502_                    | _'26/27_ 9 _∑=433_ <br>🌐8          | _'27/28_ ...                        |                                       |
 | 13th season                                      | _'14/15_ `66` _∑=488_ <br>**👟**🌐1       | _'16/17_ 62 _∑=564_ <br>**👟**         | _'27/28_ ...                        | _'28/29_ ...                        |                                       |
 | 14th season                                      | _'15/16_ `54` _∑=542_ <br>**⚽️**          | _'17/18_ 49 _∑=613_ <br>**👟**🌐1      | _'28/29_ ...                        | _'29/30_ ...                        |                                       |
 | 15th season                                      | _'16/17_ `55` _∑=597_ <br>**⚽️**          | _'18/19_ `55` _∑=668_ <br>**⚽️👟**     |                                     | _'30/31_ ...                        |                                       |
