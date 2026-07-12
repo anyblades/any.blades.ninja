@@ -4,17 +4,23 @@
   seasons:
     - season: "'10/11"
       goals: 56
-      g_shoe: true
+      awards:
+        👟: true
+      notes: "notes"
+    - season: "'10/11"
+      goals: 56
+      awards:
+        👟: true
 - name: Lionel
   surname: Messi
   country: 🇦🇷
   seasons:
     - season: "'22/23"
       goals: 39
-      w_cup:
-        goals: 7
-        won: true
-      b_dor: true
+      w_cup_goals: 7
+      awards:
+        ⚽️: true
+        🏆: true
 - name: Kylian
   surname: Mbappé
   country: 🇫🇷

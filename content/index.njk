@@ -46,14 +46,16 @@ description: "Who will cross the bar of 1K goals? Tracking active football legen
 | Debut age                                        | 17y 6m _Sporting vs Inter<br>'02/03_            | 17y 3m _Barça vs Espanyol<br>'04/05_      | 16y 11m _Monaco vs Caen<br>'15/16_       | `15y 9m` _Bryne vs Ranheim<br>2016_ | `15y 9m` _Barça vs Betis<br>'22/23_   |
 | 1st goal                                         | 17y 8m _Sporting vs Moreirense<br>'02/03_       | 17y 10m _Barça vs Albacete<br>'04/05_     | 17y 2m _Monaco vs Troyes<br>'15/16_      | `16y 9m` _Molde vs Volda<br>2017_   | `16y 2m` _Barça vs Granada<br>'23/24_ |
 | Seasons played { #row-seasons}                   | `23.9` _'02/03–present_                         | 21.7 _'04/05–present_                     | 10.6 _'15/16–present_                    | 10.1 _2016–present_                 | 3.2 _'22/23–present_                  |
-{% set sums = {} %}{% for y in range(0, players[0].seasons | length) -%}
-| Season {{ y + 1 }} |{% for p in players %}{% set s = p.seasons[y] %}{% set sums = sums | attr_set(loop.index0, sums[loop.index0] | d(0) + s.goals) %} {{
-  '<em>' + s.season + '</em> '
-  + s.goals
-  + ' <em>∑=' + sums[loop.index0] + '</em> '
-  | safe if s
-}} |{% endfor %}
-{% endfor -%}
+{%- set sums = {} %}
+{%- for y in range(0, players[0].seasons | length) %}
+| Season {{ y + 1 }} |{% for p in players %}{% set _ %}
+  {% set s = p.seasons[y] %}
+  {% set sums = sums | attr_set(loop.index0, sums[loop.index0] | d(0) + s.goals) %}
+  _{{ s.season }}_ {{ s.goals }} _∑={{ sums[loop.index0] }}_
+  <br>**{{ s.awards | d({}) | dictsort | join('', '0') }}**{{ '🌐' ~ s.w_cup_goals if s.w_cup_goals }}
+  {{ '<br>_(' ~ s.notes ~ ')_' if s.notes }}
+{% endset %} {{ _ | replace('\n', ' ') | safe if s }} |{% endfor %}
+{%- endfor %}
 | 1st season                                       | _'02/03_ `5` _∑=5_                              | _'04/05_ 1 _∑=1_                          | _'15/16_ 1 _∑=1_                         | _2016_ 0 _∑=0_                      | _'22/23_ 0 _∑=0_                      |
 | 2nd season                                       | _'03/04_ 6 _∑=11_                               | _'05/06_ 8 _∑=9_                          | _'16/17_ `26` _∑=27_                     | _2017_ 4 _∑=4_                      | _'23/24_ 9 _∑=9_                      |
 | 3rd season                                       | _'04/05_ 16 _∑=27_                              | _'06/07_ `19` _∑=28_ <br>🌐1              | _'17/18_ `22` _∑=49_                     | _2018_ 17 _∑=21_                    | _'24/25_ `19` _∑=28_                  |
@@ -139,6 +141,7 @@ description: "Who will cross the bar of 1K goals? Tracking active football legen
   }
 </style>
 
+{% renderTemplate 'md' %}
 ---
 
 ## <sup style>Support the project</sup>
@@ -175,3 +178,4 @@ We DON'T ask for financial support! Instead consider to:
   {.markerless}
 
 </details>
+{% endrenderTemplate %}
