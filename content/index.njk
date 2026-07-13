@@ -59,7 +59,7 @@ description: "Who will cross the bar of 1K goals? Tracking active football legen
     {% set totals = totals | attr_set(m, runn_totals[p][s - 1][m] | d(0) + val) %}
   {% endfor %}
   {% set runn_totals = runn_totals | attr_set(p, runn_totals[p] | attr_set(s, totals) ) %}
-  _{{ season.year }}_ {{ season.metrics.goals }} _∑={{ totals.goals }}_
+  _{{ season.year }}_ {{ season.metrics.goals }} {{ '_∑=' ~ totals.goals ~ '_' if totals.goals }}
   {% set awards = season.metrics | attr_set('goals', false) | attr_set('🌐', false) %}
   <br><strong>{{ awards | dictsort | selectattr('1') | join('', '0') }}</strong>{{ '🌐' ~ season.metrics['🌐'] if season.metrics['🌐'] }}
   {{ '<br>_(' ~ season.notes ~ ')_' if season.notes }}
@@ -83,6 +83,12 @@ description: "Who will cross the bar of 1K goals? Tracking active football legen
     </tr>
     {%- endfor %}
   </table>
+  <br>
+  <ul class="charts-css legend legend-square">
+    {%- for p in range(0, player_stats | length) %}
+    <li>{{ player_stats[p].surname }}</li>
+    {%- endfor %}
+  </ul>
 </figure>
 {% endrenderTemplate %}
 
